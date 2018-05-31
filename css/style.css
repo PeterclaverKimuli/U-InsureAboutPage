@@ -28,11 +28,18 @@
 
 @media(max-width: 600px){
     .navbar .navbar-brand{
-        font-size: 28px;
+        font-size: 25px;
+        text-align: center;
     }
   }
 
 .container{
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding-bottom: 5%;
+}
+
+.content{
     font-size: 16px;
     margin: 4% auto;
 }
@@ -41,7 +48,7 @@ footer{
     width: 100%;
     background-color: #F44336;
     color: #FFF;
-    padding: 4%;
+    padding: 3%;
 }
 
 .fa{
