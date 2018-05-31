@@ -31,6 +31,10 @@
         font-size: 25px;
         text-align: center;
     }
+    .container{
+        border-left: 0 none #FFF;
+        border-right: 0 none #FFF;
+    }
   }
 
 .container{
@@ -43,6 +47,16 @@
     font-size: 16px;
     margin: 4% auto;
 }
+
+@media(max-width: 600px){
+    .navbar .navbar-brand{
+        font-size: 25px;
+        text-align: center;
+    }
+    .container{
+        border: 0;
+    }
+  }
 
 footer{
     width: 100%;
